@@ -1,10 +1,10 @@
 package com.futurecollars.lesson4.task4;
 
-public class UpperCaseText implements TextFormatter{
+public class MotivationalBook implements TextFormatter{
 
     protected String name;
 
-    public UpperCaseText(String name) {
+    public MotivationalBook(String name) {
         this.name = name;
     }
 

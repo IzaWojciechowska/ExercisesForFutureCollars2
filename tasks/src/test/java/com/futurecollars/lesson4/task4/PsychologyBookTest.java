@@ -3,23 +3,19 @@ package com.futurecollars.lesson4.task4;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class UpperCaseTextTest {
+class PsychologyBookTest {
 
     @Test
     void formatText() {
         // given
-        String quote = "Narcissism is, indeed, the new world order...";
+        String quote = "NARCISSISM IS, INDEED, THE NEW WORLD ORDER...";
         String name = "dr Ramani Durvasula";
 
         // when
-        UpperCaseText author = new UpperCaseText(name);
+        PsychologyBook author = new PsychologyBook(name);
         String quoteAfterFormat = author.formatText(quote);
 
         // then
-        Assertions.assertEquals("NARCISSISM IS, INDEED, THE NEW WORLD ORDER...", quoteAfterFormat);
-
-
+        Assertions.assertEquals("narcissism is, indeed, the new world order...", quoteAfterFormat);
     }
 }

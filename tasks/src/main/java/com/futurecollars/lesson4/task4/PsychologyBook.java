@@ -2,11 +2,11 @@ package com.futurecollars.lesson4.task4;
 
 import java.util.Locale;
 
-public class LowerCaseText implements TextFormatter{
+public class PsychologyBook implements TextFormatter{
 
     protected String name;
 
-    public LowerCaseText(String name) {
+    public PsychologyBook(String name) {
         this.name = name;
     }
 
