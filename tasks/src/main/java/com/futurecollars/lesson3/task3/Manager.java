@@ -1,10 +1,10 @@
 package com.futurecollars.lesson3.task3;
 
 public class Manager extends BaseEmployee {
-    final double BASE_SALARY_FOR_MANAGER = 5000.0;
-    double salary;
-    double bonus = 500.0;
-    String position = "manager";
+    private final double BASE_SALARY_FOR_MANAGER = 5000.0;
+    private double salary;
+    private double bonus = 500.0;
+    private String position = "manager";
 
     public Manager(String firstName, String lastName, int yearOfEmployment, double salary) {
         super(firstName, lastName, yearOfEmployment, salary);

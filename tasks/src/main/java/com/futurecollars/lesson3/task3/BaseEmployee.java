@@ -1,11 +1,11 @@
 package com.futurecollars.lesson3.task3;
 
 public class BaseEmployee {
-    String firstName;
-    String lastName;
-    double salary;
-    int yearOfEmployment;
-    String position;
+    protected String firstName;
+    protected String lastName;
+    protected double salary;
+    protected int yearOfEmployment;
+    protected String position;
 
     public BaseEmployee(String firstName, String lastName, int yearOfEmployment, double salary) {
         this.firstName = firstName;

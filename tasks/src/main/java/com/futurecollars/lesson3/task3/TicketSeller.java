@@ -1,9 +1,9 @@
 package com.futurecollars.lesson3.task3;
 
 public class TicketSeller extends BaseEmployee {
-    final double BASE_SALARY_FOR_TICKET_SELLER = 3000.0;
-    double salary;
-    String position = "ticket seller";
+    private final double BASE_SALARY_FOR_TICKET_SELLER = 3000.0;
+    private double salary;
+    private String position = "ticket seller";
 
     public TicketSeller(String firstName, String lastName, int yearOfEmployment, double salary) {
         super(firstName, lastName, yearOfEmployment, salary);
