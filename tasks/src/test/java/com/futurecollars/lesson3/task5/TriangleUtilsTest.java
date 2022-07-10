@@ -3,12 +3,10 @@ package com.futurecollars.lesson3.task5;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class RectangularTriangleTest {
+class TriangleUtilsTest {
 
     @Test
-    void isTriangle() {
+    void isRightTriangle() {
 
         // given
         double a1 = 8;
@@ -20,8 +18,8 @@ class RectangularTriangleTest {
         double c2 = 8;
 
         // when
-        boolean result1 = RectangularTriangle.isTriangle(a1, b1, c1);
-        boolean result2 = RectangularTriangle.isTriangle(a2, b2, c2);
+        boolean result1 = TriangleUtils.isRightTriangle(a1, b1, c1);
+        boolean result2 = TriangleUtils.isRightTriangle(a2, b2, c2);
 
         // then
         Assertions.assertEquals(true, result1);

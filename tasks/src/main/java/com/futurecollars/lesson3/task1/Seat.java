@@ -1,22 +1,22 @@
 package com.futurecollars.lesson3.task1;
 
 public class Seat {
-    protected int number;
-    protected int row;
+    protected final int NUMBER;
+    protected final int ROW;
     protected boolean isSeatFree;
 
     public Seat(int number, int row, boolean seatFree) {
-        this.number = number;
-        this.row = row;
+        this.NUMBER = number;
+        this.ROW = row;
         this.isSeatFree = seatFree;
     }
 
     public int getNumber() {
-        return number;
+        return NUMBER;
     }
 
     public int getRow() {
-        return row;
+        return ROW;
     }
 
     public boolean isSeatFree() {
@@ -38,8 +38,8 @@ public class Seat {
         }
 
         return "Seat {" +
-                "number= " + number +
-                ", row= " + row +
+                "number= " + NUMBER +
+                ", row= " + ROW +
                 ", Is seat free? - " + isSeatAvailable +
                 '}';
     }

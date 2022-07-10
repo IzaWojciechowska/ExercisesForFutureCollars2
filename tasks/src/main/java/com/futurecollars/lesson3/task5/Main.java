@@ -9,6 +9,6 @@ public class Main {
 
         System.out.println("Is triangle with sides: "
         + a + ", " + b + ", " + c + " rectangular?");
-        System.out.println(RectangularTriangle.isTriangle(a, b, c));
+        System.out.println(TriangleUtils.isRightTriangle(a, b, c));
     }
 }
